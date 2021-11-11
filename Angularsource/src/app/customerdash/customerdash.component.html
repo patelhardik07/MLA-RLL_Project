@@ -1,0 +1,8 @@
+<p>customerdash works!</p>
+welcome to customer dashboard{{(customer | async)?.customername}}  <br/>
+CustomerID :{{(customer | async)?.customerid}}  <br/>
+
+UserName :  {{(customer | async)?.customerusername}}  <br/>
+Email: {{(customer | async)?.customeremail}}  <br/>
+phoneno :  {{(customer | async)?.customerphonenumber}}  <br/>
+<router-outlet name="RllProject"></router-outlet>
